@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+li{
+    text-decoration:double;
+    font-size:25px;
+    font-family:sans-serif;
+}
+ul{
+    border:3px solid black;
+    border-radius:5px;
+}
+li:hover{
+    color:gray;
+    transition:all 1s ease-in;
+    transform:scale(1.01);
+}
